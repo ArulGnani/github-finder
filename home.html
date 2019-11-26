@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+</head>
+<body class="bg-dark">
+    <div class="container my-4 col-lg-6">
+        <h1 class="text-center text-white">github finder...</h1>
+    </div>
+    <div class="container mt-3 col-lg-6">
+        <form action="" id="form">
+            <div class="form-group">
+                <input type="text" name="name" id="name" 
+                    class="form-control" placeholder="gitub user id">
+            </div>
+            <button type="submit" class="btn btn-primary col-lg">find</button>
+        </form>
+    </div>
+    <div class="container col-lg-6 my-3" id="res">
+            <table class="table table-striped table-dark">
+                    <tbody id="tb">
+                        <!-- all dynamic data goes here -->
+                        <!-- account info -->
+                    </tbody>
+            </table>
+    </div>
+
+    <div class="container col-lg-6 h-100" id="repos">
+        <!-- dynamic repo data -->
+    </div>
+    
+    <script src="./main.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
