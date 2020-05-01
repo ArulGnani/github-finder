@@ -1,4 +1,4 @@
-// account methods 
+
 class AccountINFO {
     static async getDATA( event ){
         event.preventDefault()
@@ -111,7 +111,7 @@ class AccountINFO {
     }
 }
 
-// repos methods
+
 class Repos {
     static async getusersREPO(){
         let name = document.getElementById("name").value
@@ -215,7 +215,6 @@ class Repos {
     }
 }
 
-// utils method
 class Utils {
     static async getLocalTime( time ){
         let t = new Date( time )
@@ -237,6 +236,5 @@ class Utils {
     }
 }
 
-// triggers all the function 
 document.getElementById("form").addEventListener("submit",AccountINFO.getDATA)
 
