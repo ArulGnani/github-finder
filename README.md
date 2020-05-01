@@ -1,7 +1,6 @@
 # github-finder
 
-  - whole js is written with oop's concept
-  - and used async
+> simple github finder using github api
   
 challenge: #4
 
